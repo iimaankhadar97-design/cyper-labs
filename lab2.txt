@@ -1,0 +1,116 @@
+LAB 2: Cyber Incident Impact Mapping
+
+Scenario: Fictional University Cyber Breach
+
+A fictional university has experienced a cyberattack in which an unauthorized person gained access to the university’s student management system.
+The attacker may have accessed student personal information, academic records, and staff account details. 
+The university must identify the impact, contain the incident, preserve evidence, and restore critical service.
+ 
+IMPACT MAP
+
+Area | Immediate Consequence | Secondary Consequence
+
+Student Database: Unauthorized access to student records/ Privacy violations and loss of student trust
+Student Accounts:  Some accounts may be compromised  / Students may be unable to access university services
+Academic Records:  Grades and academic information may be exposed or changed  Incorrect academic decisions and administrative problems
+Staff Accounts: Staff credentials may be compromised  / Attackers may gain access to other university systems
+University Server:  System may become unavailable / Disruption of university operations
+Registration System: Students may be unable to register for courses / Delays in enrollment and academic activities
+Financial System:  Financial information may be exposed / Financial loss and possible fraud
+University Reputation:  Students and staff may lose confidence / Damage to the university’s reputation
+IT Department: IT staff must investigate and contain the breach / Increased workload and recovery costs
+
+2. Affected Users
+
+The following users may be affected by the incident:
+
+1. Students – Their personal information, grades, and academic records may be exposed.
+2. Teachers/Lecturers – Their accounts and academic information may be affected.
+3. University Administrators – They may lose access to important management systems.
+4. IT Staff – They must investigate, contain, and recover the affected systems.
+5. Finance Staff – Financial information and payment systems may be affected.
+6. University Management – They may face operational, financial, and reputational consequences.
+
+3. Business Functions Affected
+
+Business Function              Impact
+Student Registration  Students may not be able to register for courses
+Examination and Grading  Grades and academic records may be unavailable or incorrect
+Student Records Management  Personal and academic information may be compromised
+Finance and Payments  Financial records and transactions may be affected
+Communication  University email and communication systems may be disrupted
+IT Operations  IT staff must investigate and restore systems
+Administration  Administrative activities may be delayed
+
+
+4.Three Containment Actions
+
+Action 1: Isolate the compromised systems
+
+Immediately disconnect the affected server or system from the network to prevent the attacker from spreading to other systems.
+
+Action 2: Disable compromised accounts
+
+Temporarily disable affected user accounts and reset passwords to prevent unauthorized access.
+
+Action 3: Block malicious network activity
+
+Block suspicious IP addresses, connections, and other known malicious activity using firewalls or other security controls.
+
+5. Student Questions
+
+13. What information is sensitive?
+
+Sensitive information may include:
+
+ Student names and identification numbers
+ Student contact information
+ Passwords and account credentials
+ Academic records and grades
+ Financial and payment information
+ Staff personal information
+ University system credentials
+
+Answer:
+The most sensitive information includes passwords, personal information, academic records, financial information, and system credentials because unauthorized access to this information can cause privacy violations, identity theft, fraud, or further attacks.
+
+
+
+14. What service should be restored first?
+
+Answer:
+The Student Management System and its database should be restored first because it is a critical service for accessing student records, registration, academic information, and other essential university operations.
+
+However, the system should only be restored after confirming that it is secure and that the attacker no longer has access.
+
+
+
+15. What evidence should be preserved?
+
+The following evidence should be preserved:
+
+ Server and system logs
+ Firewall logs
+ Authentication/login logs
+ Database access logs
+ Network traffic records
+ Suspicious files or malware
+ Compromised computers or virtual machines
+ User account activity
+ Timestamps of suspicious activities
+
+Answer:
+All relevant logs, suspicious files, network records, and compromised systems should be preserved so that investigators can determine how the attack happened, what information was accessed, and who or what was responsible.
+
+
+
+6. Short Incident Summary
+
+Incident Summary:
+
+A fictional university experienced a cyber breach in which an unauthorized attacker gained access to the student management system. The incident potentially exposed sensitive information, including student personal details, academic records, financial information, and user credentials. The breach affected students, lecturers, administrators, finance staff, and IT personnel.
+
+The university should first isolate the compromised systems, disable affected accounts, and block malicious network activity to contain the incident. Evidence such as server logs, firewall logs, authentication records, database logs, network traffic, and suspicious files should be preserved for investigation.
+
+After the incident has been contained and the systems have been verified as secure, the Student Management System should be restored first because it supports critical university functions such as student registration and academic record management. The university should also improve access controls, password security, monitoring, backups, and incident response procedures to reduce the risk of future attacks.
+

@@ -1,0 +1,41 @@
+LAB: Lab 1: Personal and Organizational Attack Surface
+
+No.	Asset	Classification	Threat		Risk	Control
+1.	student database	data	unauthorized access	high	role-based access control(RBAC)
+2.	university server	hardware	Ransomware	high	Regular offline backup and updated antivirus 
+3.	student management system	software	SQL injection	high	web application firewall (WAF) and secure coding
+4.	university Wi-Fi	service	unauthorized connections	high	WPA3 and strong unauthorized
+5.	Student/Staff Accounts	Identity	Password theft	high	Multi-Factor Authentication (MFA)
+
+
+2. Five Highest Risk & controls
+
+1. Student Database:> Gelitaan aan loo oggolaan Sare (High)
+  Xakamayn: Role-Based Access Control (RBAC) qof kasta waxaa loo oggolaanayaa oo keliya xogta uu shaqadiisu u baahan yahay.
+
+2. University Server  Ransomware  Sare (High)
+    Xakamayn: In si joogto ah loo sameeyo backup aan ku xirnayn server-ka (offline backup) iyo in la cusboonaysiiyo antivirus-ka.
+
+3. Student Management System SQL Injection  Sare (High)
+    Xakamayn: Isticmaalka Web Application Firewall (WAF) iyo qorista code ammaan ah.
+
+4. University Wi-Fi  Xiriir aan loo oggolaan  Sare (High)
+    Xakamayn: Isticmaalka WPA3 iyo authentication/password xooggan.
+
+5. Student Staff Accounts  Xatooyada Passwordka  Sare (High)
+    Xakamayn: Isticmaalka Multi-Factor Authentication (MFA).
+
+
+Student Questions
+
+6. Which asset is most critical?
+Student Database, because it contains important student information such as registration, grades, and personal records. Loss or unauthorized access could seriously affect the university.
+
+7. Which risk has the greatest impact?
+Ransomware attack on the University Server has the greatest potential impact because it could make many university systems and data unavailable at the same time.
+
+8. Which control is preventive and which is detective?
+
+Preventive control: MFA  prevents unauthorized users from accessing accounts even if a password is stolen.
+Detective control: Audit logs monitoring  detects and records suspicious or unauthorized activity after or while it occurs.
+

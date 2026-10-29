@@ -1,0 +1,164 @@
+Lab 3: CIA Classification and Controls
+Scenario         CIA Property        Recommended Control         Control Type
+
+1
+
+A student’s password is stolen and their account is accessed without permission.
+
+Confidentiality
+
+Multi-Factor Authentication (MFA)
+
+Preventive
+
+2
+
+University student records are accidentally deleted.
+
+Availability
+
+Regular Backups
+
+Corrective
+
+3
+
+An attacker changes a student’s exam grade from 60 to 90.
+
+Integrity
+
+Access Controls and Audit Logs
+
+Preventive / Detective
+
+4
+
+A university website becomes unavailable because of a DDoS attack.
+
+Availability
+
+DDoS Protection
+
+Preventive
+
+5
+
+Confidential student information is sent to the wrong person.
+
+Confidentiality
+
+Data Encryption
+
+Preventive
+
+6
+
+Malware modifies important files on a university server.
+
+Integrity
+
+Antivirus/Endpoint Protection
+
+Preventive
+
+7
+
+A server crashes and students cannot access the learning system.
+
+Availability
+
+Backup Server / Failover System
+
+Corrective
+
+8
+
+An employee accesses student records without authorization.
+
+Confidentiality
+
+Role-Based Access Control (RBAC)
+
+Preventive
+
+9
+
+A hacker changes information in the university database.
+
+Integrity
+
+Database Access Controls and Audit Logs
+
+Preventive / Detective
+
+10
+
+A power outage causes university computers and servers to shut down.
+
+Availability
+
+UPS and Backup Generator
+
+Preventive
+
+11
+
+An employee notices unusual login attempts on their account.
+
+Confidentiality
+
+Intrusion Detection System (IDS)
+
+Detective
+
+12
+
+A student changes another student’s personal information.
+
+Integrity
+
+Strong Authentication and Access Control
+
+Preventive
+
+13
+
+Ransomware encrypts university files and prevents users from opening them.
+
+Availability
+
+Offline Backups
+
+Corrective
+
+14
+
+Sensitive university files are stored without encryption.
+
+Confidentiality
+
+File/Data Encryption
+
+Preventive
+
+15
+
+A system administrator detects unauthorized changes in a database.
+
+Integrity
+
+Audit Logs and Monitoring
+
+Detective
+
+
+
+Student Questions
+
+20. Can one incident affect all three CIA properties?
+
+Yes. One incident can affect Confidentiality, Integrity, and Availability at the same time. For example, a ransomware attack can expose confidential data, modify or encrypt files, and make systems unavailable.
+
+21. Why is backup primarily an availability/recovery control?
+
+Backup helps restore lost or damaged data and systems after an incident, allowing users to access them again. Therefore, backup is primarily an Availability and Recovery control.
